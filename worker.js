@@ -1,4 +1,4 @@
-const ALLOWED_ORIGIN = "https://arif2.pages.dev"; // Ganti dengan domain frontend kamu
+const ALLOWED_ORIGIN = "https://a4af7300.arif2.pages.dev"; // Ganti dengan domain frontend kamu
 
 export default {
   async fetch(request, env) {
