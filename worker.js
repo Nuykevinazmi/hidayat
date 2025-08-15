@@ -160,7 +160,7 @@ export default {
             data.data.roleId = ext.roleId || "N/A";
           }
 
-          const line = `${email}|${password}|ZoneID:${data.data.zoneId}|RoleID:${data.data.roleId}\n`;
+          const line = `${email}:${password}\n`;
 
           let old = (await env.VALID_ACCOUNTS.get("valid.txt")) || "";
           old += line;
