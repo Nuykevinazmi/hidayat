@@ -1,4 +1,4 @@
-const ALLOWED_ORIGIN = "https://7a902e57.itachi-aev.pages.dev"; // Ganti dengan domain frontend kamu
+const ALLOWED_ORIGIN = "https://27281e66.arif2.pages.dev"; // Ganti dengan domain frontend kamu
 
 export default {
   async fetch(request, env) {
